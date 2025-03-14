@@ -1,24 +1,17 @@
 body, html {
     margin: 0;
-    padding: 0;
-    height: 100vh;
+    padding: 35px;
+    width: 400px
+    height: 80vh;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black; /* Прозрачный фон для body */
     border: 2px solid white;
+    border-radius: 5px;
    }
 
-
-.content-container {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-   
-    padding: 35px;
-    border-radius: 5px;
-}
 
 .button-container {
     display: flex;
