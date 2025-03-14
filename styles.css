@@ -14,8 +14,7 @@ body, html {
 .content-container {
     position: relative;
     z-index: 1;
-    text-align: center;
-    background-color: transparent;
+   text-align: center;
 } 
 
 .button-container {
