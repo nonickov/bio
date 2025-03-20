@@ -20,6 +20,7 @@ body, html {
 
 .button-container {
     display: flex;
+    position: center;
     gap: 25px;
     flex-wrap: wrap;
     justify-content: center;
