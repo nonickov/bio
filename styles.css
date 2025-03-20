@@ -4,7 +4,6 @@ body, html {
     height: 100vh;
     font-family: Arial, sans-serif;
     display: flex;
-    width; 200px;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -16,15 +15,19 @@ body, html {
     text-align: center;
     padding: 35px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+    justify-content: center; /* Центрирование по вертикали */
 }
 
 .button-container {
     display: flex;
-    position: center;
     gap: 25px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px; /* Добавлено для отступа сверху */
+    margin-top: 20px; /* Отступ сверху */
+    width: 100%; /* Занимает всю ширину контейнера */
 }
 
 .button {
