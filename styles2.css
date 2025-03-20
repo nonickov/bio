@@ -83,6 +83,9 @@ body, html {
     padding: 5px 15px;
     border: 2px solid white;
     border-radius: 5px;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .dropdown-menu {
